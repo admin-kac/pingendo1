@@ -187,8 +187,6 @@
     </div>
     <div class="cd-section p-5" id="features">
       <div class="container">
-        <!--     *********     FEATURES 1      *********      -->
-        <!--     *********    END FEATURES 1      *********      -->
         <!--     *********     FEATURES 2      *********      -->
         <div class="features-2 py-0">
           <div class="row p-12">
@@ -282,13 +280,9 @@
           </div>
         </div>
         <!--     *********    END FEATURES 2      *********      -->
-        <!--     *********     FEATURES 3      *********      -->
-        <!--     *********    END FEATURES 3      *********      -->
-        <!--     *********     FEATURES 4      *********      -->
-        <!--     *********    END FEATURES 4      *********      -->
+    
       </div>
-      <!--     *********     FEATURES 5      *********      -->
-      <!--     *********    END FEATURES 5      *********      -->
+    
     </div>
     <div class="container">
       <!--     *********     FEATURES 2      *********      -->
@@ -299,6 +293,22 @@
       </div>
     </div>
   </div>
+
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="615479185509270">
+</div>
   <!--     *********    SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
   <footer class="footer footer-white">
     <div class="container">
@@ -335,10 +345,6 @@
       </ul>
     </div>
   </footer>
-  <!--     *********   END SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
-    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
-  </pingendo>
 </body>
 
 </html>
